@@ -1,17 +1,33 @@
-# technova_calculator
+# TechNova Calculator
 
-A new Flutter project.
+A clean, responsive calculator app built with **Flutter** as part of the **TechNova App Development Internship** (Task 1).
 
-## Getting Started
+## ✨ Features
 
-This project is a starting point for a Flutter application.
+- Basic arithmetic: addition, subtraction, multiplication, division
+- Percentage support
+- Backspace (⌫) and Clear (C) functionality
+- Chained calculations (continues from previous result)
+- Error handling for invalid expressions
+- **Dark mode toggle** (bonus feature)
+- Responsive layout — works on Web, Android, iOS, Windows
 
-A few resources to get you started if this is your first Flutter project:
+## 📸 Screenshots
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+| Light Mode | Dark Mode |
+|------------|-----------|
+| ![Light](screenshots/light.png) | ![Dark](screenshots/dark.png) |
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠 Tech Stack
+
+- **Flutter** (Dart)
+- [`math_expressions`](https://pub.dev/packages/math_expressions) for parsing expressions
+- Material 3 design
+
+## 🚀 How to Run
+
+1. Install Flutter SDK: https://flutter.dev/docs/get-started/install
+2. Clone this repo:
+   ```bash
+   git clone https://github.com/AbdoulayeEgreyErdi/TechNova_Calculator.git
+   cd TechNova_Calculator
